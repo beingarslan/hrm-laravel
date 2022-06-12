@@ -1,0 +1,12 @@
+{
+    "menu": [
+      {
+        "name": "Dashboard",
+        "badgeClass": "badge badge-light-warning rounded-pill ms-auto me-1",
+        "icon": "home",
+        "slug": "dashboard",
+        "role": "Admin",
+        "url": "/dashboard"
+      }
+    ]
+}
