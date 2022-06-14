@@ -103,7 +103,7 @@
 
             $('#userteamsids').on('change', function(e) {
                 // console.log($(this).val());
-                let data = $(this).val();
+                let data = $(this).val(); 
                 @this.set('select_teams', data);
                 console.log(data);
             });
