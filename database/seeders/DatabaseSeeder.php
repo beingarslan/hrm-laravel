@@ -32,9 +32,11 @@ use Database\Seeders\User\UserTeamSeeder;
 use Database\Seeders\UserApprovalRequest\UserApprovalRequestSeeder;
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder{
+class DatabaseSeeder extends Seeder
+{
 
-    public function run(){
+    public function run()
+    {
 
         $this->call([
 
@@ -59,7 +61,7 @@ class DatabaseSeeder extends Seeder{
 
             // run seeder to add new user with all options
             UserSeeder::class,
-//            UserTeamSeeder::class,
+            // UserTeamSeeder::class,
 
             // temp seeder will be removed after development
             // AddDevelopersAccount::class,
@@ -81,5 +83,4 @@ class DatabaseSeeder extends Seeder{
             InventoryProductSeeder::class,
         ]);
     }
-
 }
